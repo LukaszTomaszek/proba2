@@ -1,0 +1,3 @@
+SELECT        dbo.Maszyny_Proces.ID_Maszyny_Proces, dbo.Rodzaj_Maszyny.Rodzaj_Maszyny, dbo.Maszyny_Proces.Liczba, dbo.Maszyny_Proces.Liczba_Rbh
+FROM            dbo.Maszyny_Proces INNER JOIN
+                         dbo.Rodzaj_Maszyny ON dbo.Maszyny_Proces.ID_Rodzaj_Maszyny = dbo.Rodzaj_Maszyny.ID_Rodzaj_Maszyny
